@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(53, 53, 53);
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover{
+    background-color: black;
+}
+
+.sub-menu{
+    position: absolute;
+    border: solid 2px rgb(53, 53, 53);
+    display: none;
+}
+.sub-menu a{
+    display: block;
+    background-color: black;
+}
+.submenu:hover .sub-menu{
+    display: block;
+}
+.sub-menu a:hover{
+    background-color: rgb(53, 53, 53);
+    border: 2px solid black;
+}
